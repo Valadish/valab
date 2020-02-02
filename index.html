@@ -11,18 +11,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- BootstrapのJS読み込み -->
 <script src="js/bootstrap.min.js"></script>
+<!-- 共通コンポーネント導入 -->
+<script type="text/javascript">
+	$(function() {
+		$("#header").load("header.html");      
+	});
+	$(function() {
+		$("#main").load("main.html");
+	});
+</script>
 </head>
-<!-- frameset rowsで全体の何％をframe srcで表示するというようにしている -->
-<div class="container">
-	<div class="row">
-		<iframe src="title.html"></iframe>
-	</div>
-	<div class="row">
-		<iframe src="menu.html"></iframe>
-	</div>
-</div>
-<!--  <frameset rows="30%,70%">
-<frame src="title.html">
-<frame src="menu.html" name="main">
-</frameset>
-</html>-->
+<script src="jquery-3.2.1.min.js"></script>
+
+<div id="header"></div>
+<div id="main"></div>
+</html>
