@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*============================================
+全般的なスタイル
+============================================*/
+
+li {
+  /*footerの装飾*/
+  width: 100%;
+  background-color: #89c7de;
+  color: red;
+  text-align: center;
+  padding: 5px;
+
+  bottom: 0; /*下に固定*/
+}
