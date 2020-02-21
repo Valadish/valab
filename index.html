@@ -6,23 +6,22 @@
 <meta name="viewport" content="width=device-width, initial-scal=1">
 <title>Lab -Life add bravery-</title>
 <!--  BootstrapのCSS読み込み -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- jQiery読み込み -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- BootstrapのJS読み込み -->
-<script src="js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <!-- 共通コンポーネント導入 -->
 <script type="text/javascript">
 	$(function() {
-		$("#header").load("header.html");      
+		$("#navbar_items").load("navbar_items.html");      
 	});
 	$(function() {
 		$("#main").load("main.html");
 	});
 </script>
 </head>
-<script src="jquery-3.2.1.min.js"></script>
-
-<div id="header"></div>
+<!-- ナビゲーションバー -->
+<nav id="navbar_items" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"></nav>
 <div id="main"></div>
 </html>
