@@ -2,7 +2,6 @@
 /*============================================
 全般的なスタイル
 ============================================*/
-
 li {
   /*footerの装飾*/
   width: 100%;
@@ -10,18 +9,15 @@ li {
   color: red;
   text-align: center;
   padding: 5px;
-
-  bottom: 0; /*下に固定*/
-}
+  bottom: 0;
+  /*下に固定*/ }
 
 .title {
-  background-color: red;
-}
+  background-color: red; }
 
 h1 {
-  font-size: 12px;
-  
-  &:hover {
-    background-color: blue;
-  }
-}
+  font-size: 12px; }
+  h1:hover {
+    background-color: blue; }
+
+/*# sourceMappingURL=header.css.map */
