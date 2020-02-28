@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*============================================
+TopのCSS
+============================================*/
+/* ヒーローイメージ(背景画像) */
+.hero-image {
+  margin-top: -56px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../asset/top-hero-image.jpg");
+  /* Set a specific height */
+  height: 100vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
+
+/* Place text in the middle of the image */
+.hero-texts {
+  margin-top: 160px;
+  margin-bottom: 128px; }
+  .hero-texts .top-logo-image {
+    width: 512px; }
+
+/*# sourceMappingURL=index.css.map */

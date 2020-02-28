@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scal=1">
-<title>Lab -Life add bravery-</title>
-<!--  BootstrapのCSS読み込み -->
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- jQiery読み込み -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- BootstrapのJS読み込み -->
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<!-- 共通コンポーネント導入 -->
-<script type="text/javascript">
-	$(function() {
-		$("#navbar_items").load("navbar_items.html");      
-	});
-	$(function() {
-		$("#main").load("main.html");
-	});
-</script>
-</head>
-<!-- ナビゲーションバー -->
-<nav id="navbar_items" class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"></nav>
-<div id="main"></div>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scal=1">
+		<title>Lab -Life add bravery-</title>
+		<!--  BootstrapのCSS読み込み -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQiery読み込み -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- BootstrapのJS読み込み -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- indexページのcssの読み込み -->
+		<link href="css\index.css" rel="stylesheet">
+		<!-- 共通コンポーネント導入 -->
+		<script type="text/javascript">
+			$(function() {
+				$("#navbar_items").load("navbar_items.html");      
+			});
+			$(function() {
+				$("#main").load("main.html");
+			});
+		</script>
+	</head>
+	<!-- ナビゲーションバー -->
+	<nav id="navbar_items" class="navbar navbar-expand-md navbar-dark sticky-top"></nav>
+	<!-- メインビジュアル/Heroイメージ -->
+	<div class="hero-image">
+		<div class="hero-texts text-white text-center">
+			<h1 class="display-1">
+				<img class="top-logo-image" src="../asset/logo_full.svg" alt="Valdish Lab">
+			</h1>
+		</div>
+		<div id="main"></div>
+	</div>
 </html>

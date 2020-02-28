@@ -3,25 +3,10 @@
 全般的なスタイル
 ============================================*/
 
-// li {
-//   /*footerの装飾*/
-//   width: 100%;
-//   background-color: #89c7de;
-//   color: red;
-//   text-align: center;
-//   padding: 5px;
+.brand-img {
+  height: 40px;
+}
 
-//   bottom: 0; /*下に固定*/
-// }
-
-// .title {
-//   background-color: red;
-// }
-
-// h1 {
-//   font-size: 12px;
-  
-//   &:hover {
-//     background-color: blue;
-//   }
-// }
+.navbar-texts {
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
