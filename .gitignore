@@ -1,3 +1,7 @@
+# .gitignore
+#  ここ書かれたファイルは git のバージョン管理から無視されます。
+
+
 .sass-cache/
 
 *.scssc
