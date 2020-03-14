@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>メンバー一覧</title>
+    <meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scal=1">
+		<title>Lab -Life add bravery-</title>
+		<!--  BootstrapのCSS読み込み -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQiery読み込み -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- BootstrapのJS読み込み -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- indexページのcssの読み込み -->
+		<link href="css\index.css" rel="stylesheet">
+		<!-- 共通コンポーネント導入 -->
+		<script type="text/javascript">
+			$(function() {
+				$("#navbar_items").load("navbar_items.html");      
+			});
+			$(function() {
+				$("#main").load("main.html");
+			});
+		</script>
 </head>
+<!-- ナビゲーションバー -->
+<nav id="navbar_items" class="navbar navbar-expand-md navbar-dark sticky-top"></nav>
 <body>
 <!-- 直下の文章はスクロール -->
 <marquee>鋭意制作中！随時メンバー情報更新していく所存！期待されたし</marquee>
